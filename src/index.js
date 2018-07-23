@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import sampleSize from "lodash.samplesize";
 import "./style.css";
 import Cell from "./cell";
-import { sampleSize, diff } from "./utils";
+import { diff } from "./utils";
 
 class Game extends React.PureComponent {
   constructor(props) {

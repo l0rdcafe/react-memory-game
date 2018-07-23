@@ -1,12 +1,3 @@
-export const sampleSize = (arr, n) => {
-  const result = [];
-
-  for (let i = 0; i < Math.floor(Math.random() * arr.length || n) + 1; i += 1) {
-    result.push(Math.floor(Math.random() * arr.length));
-  }
-  return result;
-}
-
 export const colors = {
   available: "#eee",
   challenge: "deepskyblue",

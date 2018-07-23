@@ -5,6 +5,7 @@
   "homepage": "https://l0rdcafe.github.io/react-memory-game",
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "lodash.samplesize": "^4.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
